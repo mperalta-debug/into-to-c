@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	system("color 75");
+
+	double miles, kilometers;
+
+	cout << "Enter the miles ";
+	cin >> miles;
+
+	kilometers = miles * 1.61;
+
+	cout << "The kilometers is " << kilometers << endl;
+
+	return 0;
+}
+
+
+
+
